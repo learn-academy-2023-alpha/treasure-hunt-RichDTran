@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import "./App.css"
+import Playagain from "./components/Playagain"
 import Square from "./components/Square"
 
 const App = () => {
@@ -46,6 +47,10 @@ const handleGamePlay =(index) => {
         />
         )
       })}
+      </div>
+      <div>
+        <h2>Play Again?</h2>
+        <Playagain/>
       </div>
     </>
   )
